@@ -1,0 +1,15 @@
+{
+  "name": "Applicaiton",
+  "version": "0.1.0",
+  "description": "Application description.",
+  "author": {
+      "name": "Steve Campos",
+      "email": "campos.coder@gmail.com",
+      "git": "https://github.com/campos/"
+  },
+  "scripts": {
+    "start": "meteor --settings settings-development.json",
+    "staging": "meteor deploy staging.meteor.com --settings settings-development.json",
+    "production": "meteor deploy production.meteor.com --settings settings-production.json"
+  }
+}
